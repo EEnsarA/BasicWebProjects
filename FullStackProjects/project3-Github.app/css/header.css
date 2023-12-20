@@ -1,0 +1,23 @@
+#githubLogoMain{
+   width: 60px; 
+   height: 60px;
+}
+
+#header{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+#header-title{
+    margin-top: 12px;
+    font-family: Nova Square, sans-serif;
+    font-size:xx-large;
+    
+}
+#searchDiv{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}

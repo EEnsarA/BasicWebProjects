@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Francois One");
+#mainHeader{
+    font-family: Rubik Doodle Shadow , serif;
+    color: rgb(8, 67, 96);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Francois One , serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('images/main.jpg');
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app{
+    width: 400px;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.6;
+    padding: 42px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 4px 6px #30455f;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInput{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    border-bottom: solid grey;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    font-family: Francois One , serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.cityName{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.degree{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 36px;
+    
+}
+.github{
+    margin-top: 30px;
+    margin-inline-end: auto;
+    font-family: Francois One , serif;
+    
+}

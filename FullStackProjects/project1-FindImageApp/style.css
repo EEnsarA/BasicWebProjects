@@ -1,0 +1,57 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInput{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+#searchButton{
+    margin: 5px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #444544;
+    color: aliceblue;
+    box-shadow: 2px 4px 6px black;
+    border: none;
+}
+#clearButton{
+    margin: 5px;
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 4px 6px black;
+    background-color: #245252;
+    color: aliceblue;
+    border: none;
+}
+.button-wrapper{
+    margin: 10px 8px;
+}
+.imagelist-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagelist-wrapper > .card{
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px grey;
+}
+#mainHeader{
+    text-align: center;
+    font-family: "Arvo", serif;
+}   

@@ -1,0 +1,26 @@
+#footer{
+   background-color: #fff;
+   border: 1px solid lightgrey;
+   margin-top: 8px; 
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+#githubLogo{
+    font-size: 35px;
+    margin-right: 12px;
+    height: 35px !important;
+    width: 35px !important;
+}
+#fiverrLogo{
+    font-size: 35px;
+}
+#linkedinLogo{
+    margin-left: 12px;
+    font-size: 35px;
+}
+#socialMediaDiv{
+    padding: 10px;
+}  

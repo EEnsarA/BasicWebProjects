@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(76, 89, 88);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh; /* vh : ekranın yüksekliği kadar */
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.seat{
+    margin: 10px;
+    font-size: 35px;
+    color: #BFBFBF; 
+}
+.seat:not(.filledColor):hover{
+    transform: scale(1.2);
+}
+#mainHeader{
+    font-family: "Arvo" ,serif;
+}
+.movieMain{
+    margin-top: 15px;
+    text-align: center;
+}
+#selectMovie{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Arvo" , serif;
+}
+.seatStatus{
+    margin-top: 20px;
+}
+.empty{
+    font-size: 16px;
+    margin: 10px;
+    color: #BFBFBF;
+    
+}
+.selected{
+    color: #10403B;
+    margin: 10px;
+    font-size: 16px;
+}
+.filled{
+    margin: 10px;
+    color: firebrick;
+    font-size: 16px;
+}
+span{
+    font-family: "Arvo" , serif;
+}
+.resultTextMain{
+    margin-top: 10px;
+    font-family: "Arvo" , serif;
+    font-weight: bold ;
+    font-size: 18px;
+    
+}
+.resultTextMain > p > span{
+    color: rgb(175, 45, 45);
+    
+}
+#buttonMain{
+    margin-top: 10px;
+}
+#buyButton{
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Arvo",serif;
+    background-color: #1f954c;
+    
+}
+#clearButton{
+    width: 60px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Arvo",serif; 
+    background-color:#BFBFBF;
+}
+.screen{
+    margin-top: 20px;
+    width: 650px;
+    background-color: #BFBFBF;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgb(160, 160, 160);
+}
+
+#screenHeader{
+    height: 100%;
+    font-family: "Arvo",serif; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color : rgb(76, 89, 88);
+}
+.emptyColor{
+    color: #BFBFBF;
+}
+.selectedColor{
+    color: #10403B;
+}
+.filledColor{
+    color: firebrick;   
+}

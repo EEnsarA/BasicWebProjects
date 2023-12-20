@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Ticket App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="mainHeader">Cinema Ticket App</h1>
+        <div class="seatMain">
+            <div class="row">
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+               <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>    
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+        </div>
+        <div class="movieMain">
+            <select name="" id="selectMovie">
+                <option value="15">Film 1</option>
+                <option value="20">Film 2</option>
+                <option value="30">Film 3</option>   
+            </select>
+        <div class="seatStatus">
+            <div class="row">
+                <div class="empty"><i class="fa-solid fa-couch"><span>  Empty</span></i></div>
+                <div class="selected"><i class="fa-solid fa-couch"><span>   Selected</span></i></div>
+                <div class="filled"><i class="fa-solid fa-couch"><span> Filled</span></i></div>
+            </div>
+        </div>  
+        <div class="resultTextMain">
+            <p>Amount to be paid for <span id="count">0</span> tickets :  <span id="amount"> 0 </span> $</p>
+        </div>
+        <div class="buttonMain">
+            <button id="buyButton" type="button">Buy</button>
+            <button type="button" id="clearButton">Clear</button>
+        </div>
+        <div class="screen">
+            <h2 id="screenHeader">Screen</h2>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="storage.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

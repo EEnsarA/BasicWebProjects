@@ -1,0 +1,46 @@
+#profileContentDiv{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8px;
+}
+#profileImg{
+    border-radius: 50%;
+}
+#profileDiv{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info{
+    margin: 10px;
+}
+#reposDiv{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-top: 8px;
+}
+#searchUserDiv{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-top: 8px;
+    display : flex;
+    flex-direction: row;
+}
+#latestSearchDiv{
+    display: flex;
+    flex-direction: row;
+
+}
+#todaySentenceDiv{
+    background-color: #fff;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
