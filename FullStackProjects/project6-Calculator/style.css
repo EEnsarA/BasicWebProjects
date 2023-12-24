@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Righteous , serif;
+    background-color: rgb(233, 231, 231);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+#container{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.resultPanel{
+   width: 369px; 
+   height: 120px;
+   background-color: #4D5159;
+   border: 1px solid lightgrey;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: #BFBFBD;
+    width: 370px;
+    height: 470px;
+    border: 2px solid rgb(177, 177, 177);
+    box-shadow: 2px 4px 6px solid lightgray;
+    padding: 2px;
+}
+button{
+    font-family: Righteous , serif;
+}
+.result{
+    font-size: 48px;
+    color: #fff;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.clearDiv button{
+   width: 50%;
+   height: 60px;
+   border: none;
+   background-color: #285059;
+   margin: 1px;
+   color: #fff;
+   border-radius: 2px;
+   font-size: 28px;
+}
+.clearDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.number{
+    width: 82px;
+    height: 70px;
+    background-color: #e0e0e0;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    font-size: 30px;
+    
+}
+button{
+    margin: 4px;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px; 
+}
+.operatorsKey{
+    width: 82px;
+    height: 70px;
+    background-color: #253C59;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    font-size: 30px; 
+    color: #fff;
+}
+.numPad{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.equal{
+    width: 82px;
+    height: 70px;
+    background-color: #d79e22;
+    border: 2px solid lightgrey;
+    border-radius: 2px;
+    font-size: 30px;
+    color: #fff;
+}
+/*Hover*/
+.number:hover{
+    background-color: #f1efef;
+}
+.operatorsKey:hover{
+    background-color: #294364;
+}
+.equal:hover{
+    background-color: #bf8c1e;
+}
+.clearDiv button:hover{
+    background-color: #2e5c66;  
+}
